@@ -4,13 +4,15 @@
     height: 100px;
 }
 .top {
-    background-color: #1F2937;
+    background-color: hsl(215, 28%, 17%);
+    
 }
 ul {
     list-style-type: none;
     display: flex;
     gap: 8px;
     margin: 0;
+    margin-right: 20px;
     padding: 8px;
 }
 li, p {
@@ -25,23 +27,50 @@ h1, .logo {
 h1 {
     font-size: 48px;
     font-weight: 800;
+    margin: 0;
 }
 .logo {
     padding: 8px;
+    margin-left: 20px;
     font-size: 24px;
     display: flex;
 }
 .top-body {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* margin-left: 20px; */
+    gap: 200px;
+}
+.top-body-left {
+    display: flex;
     flex-direction: column;
+    /* align-items: center; */
 }
 button {
-    color: white;
-    font-size: medium;
+    font-size: large;
+    text-decoration: none;
     background-color: #3882f6;
     border-radius: 15px;
     height: 50px;
     width: 100px;
+}
+.github a {
+    text-decoration: none;
+    color: white;
+}
+p a {
+    color:#3882f6;
+    
+}
+.placeholder-image {
+    color: white;
+    background-color: grey;
+    height: 250px;
+    width: 400px; 
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-right: 20px;
 }
