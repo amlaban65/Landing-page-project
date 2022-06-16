@@ -73,4 +73,31 @@ p a {
     justify-content: center;
     margin-bottom: 100px;
     margin-right: 20px;
+} 
+.middle-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+.middle-body {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    height: 300px;
+    padding-bottom: 50px;
+}
+.middle-content {
+    max-width: 200px;
+}
+.middle-text {
+}
+.middle-placeholder {
+    border-radius: 25px;
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    margin-bottom: 5px;
 }
