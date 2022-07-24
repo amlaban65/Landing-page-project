@@ -150,12 +150,3 @@ p a {
     align-items: center;
     height: 70px;
 }
-@media (min-width: 600px) {
-    main {
-      flex-wrap: nowrap;
-    }
-
-    div {
-      flex-basis: 33%;
-    }
-  }
