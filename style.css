@@ -150,3 +150,10 @@ p a {
     align-items: center;
     height: 70px;
 }
+@media (min-width: 320px) and (max-width: 999px) {
+
+   .top-body {
+       padding-left: 3%;
+   }
+  
+  }
